@@ -9,7 +9,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-
+using Microsoft.AspNetCore.Authentication.Negotiate;
 namespace maxApi
 {
     public class Startup
@@ -26,7 +26,15 @@ namespace maxApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-        }
+      
+
+
+services.AddAuthentication(NegotiateDefaults.AuthenticationScheme)
+   .AddNegotiate();
+
+
+
+  }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -40,6 +48,7 @@ namespace maxApi
 
             app.UseRouting();
 
+app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

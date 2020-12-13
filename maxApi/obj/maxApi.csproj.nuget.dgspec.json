@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\assafsabag\\source\\repos\\maxApi\\maxApi\\maxApi.csproj": {}
+    "/home/assaf/rubic/maxApi/maxApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\assafsabag\\source\\repos\\maxApi\\maxApi\\maxApi.csproj": {
+    "/home/assaf/rubic/maxApi/maxApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\assafsabag\\source\\repos\\maxApi\\maxApi\\maxApi.csproj",
+        "projectUniqueName": "/home/assaf/rubic/maxApi/maxApi.csproj",
         "projectName": "maxApi",
-        "projectPath": "C:\\Users\\assafsabag\\source\\repos\\maxApi\\maxApi\\maxApi.csproj",
-        "packagesPath": "C:\\Users\\assafsabag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\assafsabag\\source\\repos\\maxApi\\maxApi\\obj\\",
+        "projectPath": "/home/assaf/rubic/maxApi/maxApi.csproj",
+        "packagesPath": "/home/assaf/.nuget/packages/",
+        "outputPath": "/home/assaf/rubic/maxApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\assafsabag\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/assaf/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Negotiate": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.9, )"
@@ -63,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

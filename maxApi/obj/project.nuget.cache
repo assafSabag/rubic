@@ -1,10 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "iirVVhY6INlDwoOjIUH/ehQBZZ/szAOjdGCjryr/yi5b6YzeVCJoh1JP8ENjnkjQtOxoscBHk3LBsHnn0fGv8Q==",
+  "dgSpecHash": "z4yy5+zKT/snxy39Ao36L/8sTET1R8VQj4roG1Hfs3YbSh3UvZFd3zd2XMgo0pKuOWdqic8+GezIuixBcf9OVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\assafsabag\\source\\repos\\maxApi\\maxApi\\maxApi.csproj",
+  "projectFilePath": "/home/assaf/rubic/maxApi/maxApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\assafsabag\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+    "/home/assaf/.nuget/packages/microsoft.aspnetcore.authentication.negotiate/5.0.1/microsoft.aspnetcore.authentication.negotiate.5.0.1.nupkg.sha512",
+    "/home/assaf/.nuget/packages/microsoft.aspnetcore.connections.abstractions/5.0.1/microsoft.aspnetcore.connections.abstractions.5.0.1.nupkg.sha512",
+    "/home/assaf/.nuget/packages/microsoft.aspnetcore.http.features/5.0.1/microsoft.aspnetcore.http.features.5.0.1.nupkg.sha512",
+    "/home/assaf/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/home/assaf/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/home/assaf/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.10.9/microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "/home/assaf/.nuget/packages/system.directoryservices.protocols/5.0.0/system.directoryservices.protocols.5.0.0.nupkg.sha512",
+    "/home/assaf/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512",
+    "/home/assaf/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

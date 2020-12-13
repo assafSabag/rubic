@@ -1,8 +1,9 @@
-
 FROM mcr.microsoft.com/dotnet/aspnet:5.0-buster-slim AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
+
+RUN apt-get update && apt-get install -y  libldap-2.4-2 realmd krb5-user software-properties-common python3-software-properties packagekit
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS build
 WORKDIR /src
