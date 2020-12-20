@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/assaf/rubic/maxApi/maxApi.csproj": {}
+    "/Users/assafsabag/Downloads/checkdock/rubic/maxApi/maxApi.csproj": {}
   },
   "projects": {
-    "/home/assaf/rubic/maxApi/maxApi.csproj": {
+    "/Users/assafsabag/Downloads/checkdock/rubic/maxApi/maxApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/assaf/rubic/maxApi/maxApi.csproj",
+        "projectUniqueName": "/Users/assafsabag/Downloads/checkdock/rubic/maxApi/maxApi.csproj",
         "projectName": "maxApi",
-        "projectPath": "/home/assaf/rubic/maxApi/maxApi.csproj",
-        "packagesPath": "/home/assaf/.nuget/packages/",
-        "outputPath": "/home/assaf/rubic/maxApi/obj/",
+        "projectPath": "/Users/assafsabag/Downloads/checkdock/rubic/maxApi/maxApi.csproj",
+        "packagesPath": "/Users/assafsabag/.nuget/packages/",
+        "outputPath": "/Users/assafsabag/Downloads/checkdock/rubic/maxApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/assaf/.nuget/NuGet/NuGet.Config"
+          "/Users/assafsabag/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -45,6 +45,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.9, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[2.19.100, )"
             }
           },
           "imports": [
@@ -65,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
