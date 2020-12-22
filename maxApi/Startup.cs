@@ -12,7 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Authentication.Negotiate;
 namespace maxApi
 {
-    public class Startup
+    public class Startup : BaseStartup
     {
         public IConfiguration Configuration { get; }
 
@@ -26,15 +26,12 @@ namespace maxApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-      
 
-
-services.AddAuthentication(NegotiateDefaults.AuthenticationScheme)
-   .AddNegotiate();
-
-
-
-  }
+            services.AddOptions();
+            services.Configure<AppSetting>(Configuration.GetSection("AppSettings"));
+            services.AddScoped(typeof(DB));
+            services.AddAuthentication(NegotiateDefaults.AuthenticationScheme).AddNegotiate();
+        } 
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -48,7 +45,7 @@ services.AddAuthentication(NegotiateDefaults.AuthenticationScheme)
 
             app.UseRouting();
 
-app.UseAuthentication();
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
